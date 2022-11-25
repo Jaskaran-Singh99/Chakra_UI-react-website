@@ -30,6 +30,7 @@ const Header = ()=>{
             colorScheme="purple"
             borderRadius="full"
             onClick={onOpen}
+            zIndex={'3'}
         >
             <BiMenuAltLeft size={"20"}/>
 

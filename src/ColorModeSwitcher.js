@@ -9,8 +9,8 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 
   return (
     <IconButton
-      size="md"
-      fontSize="lg"
+      size="lg"
+      fontSize="3xl"
       pos="fixed"
       top="5"
       right="5"
@@ -20,6 +20,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       marginLeft="2"
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
+      zIndex={'3'}
       {...props}
     />
   );
