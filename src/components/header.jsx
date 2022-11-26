@@ -42,7 +42,7 @@ const Header = ()=>{
                     <DrawerHeader justifyContent={'center'}>Video Hub</DrawerHeader>
                     <VStack>
                         <Button onClick={onClose} colorScheme={'purple'} variant={'ghost'}>
-                            <Link to="/home">Home</Link>
+                            <Link to="/">Home</Link>
                         </Button>
 
                         <Button onClick={onClose} colorScheme={'purple'} variant={'ghost'}>

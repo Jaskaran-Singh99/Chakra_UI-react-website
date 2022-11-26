@@ -50,14 +50,13 @@ const Home = () => {
 
             <Box h={'100vh'} marginTop={'50px'} >
                 <Heading textAlign={'center'} textTransform={'uppercase'}>About me</Heading>
-                <Stack flexDirection={'row'} width={'80%'} margin={'auto'} justifyContent={"space-between" } alignItems={'center'} mt={'70px'}>
-                    <Image src={img5} h={'200px'} borderRadius={'50%'} w={'200px'} ></Image>
-                    <Text w={'70%'}>
+                <Stack flexDirection={'row'} width={'70%'} margin={'auto'} justifyContent={"space-around" } alignItems={'center'} mt={'70px'}>
+                    <Image src={img5} h={'200px'} borderRadius={'50%'} w={'200px'}  ></Image>
+                    <Text w={'50%'}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime quo, consequatur eligendi
                         saepe culpa porro nulla ex consectetur accusantium asperiores similique rem odio esse doloribus
                         suscipit accusamus vero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corrupti placeat 
-                        maxime commodi, saepe tenetur, enim asperiores nesciunt vero iste,
-                        impedit magnam voluptate maiores eum. Est, in! Dolor, voluptas autem!
+                        maxime commo.
                     </Text>
                 </Stack>
             </Box>
