@@ -6,6 +6,7 @@ const Footer =()=>{
         padding:'10px 0px',
         textAlign:'center',
         color:'white',
+        marginTop:'30px'
         
     }
     return(

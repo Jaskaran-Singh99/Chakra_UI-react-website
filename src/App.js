@@ -5,6 +5,8 @@ import Home from './components/home.jsx'
 import Footer from './components/footer.jsx'
 import Videos from './components/Videos'
 import Upload from './components/upload.jsx'
+import Login from './components/login'
+import Signin from './components/signin'
 
 function App(){
     return(
@@ -15,6 +17,8 @@ function App(){
             <Route path={'/'} element={<Home/>}></Route>
             <Route exact path='/videos' element={<Videos/>}></Route>
             <Route exact path='/upload' element={<Upload/>}></Route>
+            <Route exact path='/signin' element={<Signin/>}></Route>
+            <Route exact path='/login' element={<Login/>}></Route>
 
           </Routes>
           <Footer></Footer>

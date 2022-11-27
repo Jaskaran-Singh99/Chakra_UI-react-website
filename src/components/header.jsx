@@ -68,7 +68,7 @@ const Header = ()=>{
                             <Link to={'/login'}>Login</Link>
                         </Button>
                         <Button onClick={onClose} colorScheme={'purple'} variant={'outline'} >
-                            <Link to={'/signup'}>Sign Up</Link>
+                            <Link to={'/signin'}>Sign Up</Link>
                         </Button>
                     </HStack>
                 </DrawerContent>
