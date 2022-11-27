@@ -1,9 +1,9 @@
-#About project
+# About project
 In this project chakra UI is used to create a beautiful website . The main focus was to learn the basics of chakra ui and reactjs
 
 In the project directory, you can run:
 
-##See the website in real time
+## See the website in real time
 https://react-anime-streamer.vercel.app
 
 ### `npm start`
